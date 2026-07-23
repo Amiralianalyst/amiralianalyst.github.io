@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amir Ali | Data Analyst Portfolio</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; color: #1a1a1a; background: #ffffff; line-height: 1.6; }
+  a { color: #1F4E79; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  header { background: #1F4E79; color: white; padding: 60px 40px; }
+  header h1 { font-size: 42px; font-weight: 700; margin-bottom: 8px; }
+  header p.title { font-size: 18px; opacity: 0.85; margin-bottom: 20px; }
+  .contact-links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px; }
+  .contact-links a { color: white; background: rgba(255,255,255,0.15); padding: 6px 16px; border-radius: 20px; font-size: 14px; border: 1px solid rgba(255,255,255,0.3); }
+  .contact-links a:hover { background: rgba(255,255,255,0.25); text-decoration: none; }
+  section { padding: 50px 40px; max-width: 900px; margin: 0 auto; }
+  h2 { font-size: 24px; font-weight: 600; color: #1F4E79; border-bottom: 2px solid #1F4E79; padding-bottom: 8px; margin-bottom: 28px; }
+  .about-text { font-size: 16px; color: #444; line-height: 1.8; }
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+  .skill-card { background: #f8f9fa; border: 1px solid #e0e0e0; border-radius: 8px; padding: 16px; }
+  .skill-card h3 { font-size: 13px; color: #1F4E79; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+  .skill-card p { font-size: 14px; color: #555; line-height: 1.6; }
+  .project-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 10px; padding: 28px; margin-bottom: 20px; border-left: 4px solid #1F4E79; }
+  .project-card h3 { font-size: 19px; font-weight: 600; color: #1a1a1a; margin-bottom: 6px; }
+  .project-meta { font-size: 13px; color: #888; margin-bottom: 12px; }
+  .project-card p { font-size: 15px; color: #444; margin-bottom: 14px; line-height: 1.7; }
+  .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  .tag { background: #e8f0f8; color: #1F4E79; font-size: 12px; padding: 4px 10px; border-radius: 12px; font-weight: 500; }
+  .findings { background: #f8f9fa; border-radius: 6px; padding: 14px; margin-bottom: 14px; }
+  .findings p { font-size: 14px; color: #555; margin-bottom: 4px; }
+  .findings p:last-child { margin-bottom: 0; }
+  .github-link { display: inline-block; background: #1F4E79; color: white; padding: 8px 20px; border-radius: 6px; font-size: 14px; font-weight: 500; }
+  .github-link:hover { background: #163a5a; text-decoration: none; }
+  .entry { margin-bottom: 24px; padding-bottom: 24px; border-bottom: 1px solid #f0f0f0; }
+  .entry:last-child { border-bottom: none; }
+  .entry h3 { font-size: 17px; font-weight: 600; color: #1a1a1a; }
+  .entry .org { font-size: 15px; color: #1F4E79; font-weight: 500; margin: 2px 0; }
+  .entry .date { font-size: 13px; color: #888; margin-bottom: 8px; }
+  .entry ul { padding-left: 18px; }
+  .entry ul li { font-size: 14px; color: #555; margin-bottom: 4px; line-height: 1.6; }
+  footer { background: #1F4E79; color: white; text-align: center; padding: 30px; font-size: 14px; }
+  @media (max-width: 600px) { header { padding: 40px 20px; } header h1 { font-size: 30px; } section { padding: 40px 20px; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Amir Ali</h1>
+  <p class="title">MS Business Analytics | Data Analyst | Python · R · SQL · Power BI · Excel</p>
+  <p style="font-size:15px; opacity:0.8;">Albany, NY · Open to internships and analyst roles</p>
+  <div class="contact-links">
+    <a href="mailto:Chaudhryamir0@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/amir-ali-6b677929b/" target="_blank">LinkedIn</a>
+    <a href="https://github.com/Amiralianalyst" target="_blank">GitHub</a>
+  </div>
+</header>
+<section>
+  <h2>About Me</h2>
+  <p class="about-text">Business Analytics graduate student at Siena University with hands-on experience in data analysis, machine learning, and business reporting. I have built independent end-to-end analytics projects using Python, R, SQL, and Excel — working with real-world datasets in healthcare and financial analytics. Passionate about translating complex data into clear, actionable insights that drive business decisions. Currently seeking data analyst and business analyst internships.</p>
+</section>
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card"><h3>Programming</h3><p>Python (Pandas, Scikit-learn, Matplotlib, Seaborn), R, SQL</p></div>
+    <div class="skill-card"><h3>BI & Visualization</h3><p>Power BI, Tableau, Excel (advanced), R (ggplot2), Dashboard Development</p></div>
+    <div class="skill-card"><h3>Machine Learning</h3><p>Logistic Regression, Multiple Linear Regression, EDA, Model Evaluation (Precision, Recall, F1)</p></div>
+    <div class="skill-card"><h3>Statistical Modeling</h3><p>Time Series Forecasting (ARIMA), Monte Carlo Simulation, Decision Analysis, JMP</p></div>
+    <div class="skill-card"><h3>Data Skills</h3><p>Data cleaning, transformation, validation, pipeline development, multi-source integration</p></div>
+    <div class="skill-card"><h3>Tools & Platforms</h3><p>Microsoft Azure (familiar), Power Query, Microsoft 365, Google Analytics, GitHub</p></div>
+  </div>
+</section>
+<section>
+  <h2>Projects</h2>
+  <div class="project-card">
+    <h3>Hospital Readmission Risk Analysis</h3>
+    <p class="project-meta">Independent Project · Python · Summer 2026</p>
+    <p>Built a machine learning model to predict 30-day hospital readmission risk using 101,766 real clinical records from 130 US hospitals. Performed large-scale data cleaning across 50 features, handled class imbalance, and delivered business recommendations tied to healthcare policy outcomes.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span><span class="tag">Healthcare Analytics</span><span class="tag">EDA</span></div>
+    <div class="findings">
+      <p><strong>101,766</strong> real patient records from <strong>130 US hospitals</strong></p>
+      <p>Prior inpatient visits = strongest readmission predictor (correlation 0.17)</p>
+      <p><strong>94.7%</strong> of patients never received HbA1c testing — key care quality gap</p>
+      <p>Recommendations tied to HRRP financial penalties and CMS Star Ratings</p>
+    </div>
+    <a class="github-link" href="https://github.com/Amiralianalyst/hospital-readmission-risk-analysis" target="_blank">View on GitHub</a>
+  </div>
+  <div class="project-card">
+    <h3>Credit Default Risk Analysis</h3>
+    <p class="project-meta">Independent Project · Python · Summer 2026</p>
+    <p>Built a logistic regression model to predict loan default risk across 2,000 bank customers. Performed full EDA, correlation analysis, and model evaluation. Delivered data-driven business recommendations for credit risk assessment strategy.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span><span class="tag">Financial Analytics</span><span class="tag">EDA</span></div>
+    <div class="findings">
+      <p><strong>89% accuracy</strong> on test set</p>
+      <p>Age = strongest predictor — defaulters averaged <strong>26 years</strong> vs 43 for non-defaulters</p>
+      <p>Loan amount nearly doubles for defaulters ($7,272 vs $3,978)</p>
+      <p>Income alone has near-zero correlation with default (r = 0.002)</p>
+    </div>
+    <a class="github-link" href="https://github.com/Amiralianalyst/credit-default-risk-analysis" target="_blank">View on GitHub</a>
+  </div>
+  <div class="project-card">
+    <h3>Housing Price Prediction Model</h3>
+    <p class="project-meta">Academic Project · R · Siena University · Spring 2025</p>
+    <p>Analyzed King County Housing dataset (21,000+ records) — performed full EDA, data cleaning, and Multiple Linear Regression modeling with p-value and VIF diagnostics to identify key price drivers.</p>
+    <div class="tags"><span class="tag">R</span><span class="tag">Multiple Linear Regression</span><span class="tag">EDA</span><span class="tag">Data Visualization</span></div>
+    <div class="findings">
+      <p><strong>21,000+</strong> residential property records analyzed</p>
+      <p>Waterfront status adds <strong>+$1.13M</strong> to property value</p>
+      <p>VIF diagnostics confirmed no multicollinearity in final model</p>
+    </div>
+  </div>
+</section>
+<section>
+  <h2>Experience</h2>
+  <div class="entry">
+    <h3>Business Operations Associate</h3>
+    <p class="org">MVC — Islamabad, Pakistan</p>
+    <p class="date">Jul 2024 – Jul 2025</p>
+    <ul>
+      <li>Built and maintained Excel dashboards tracking KPIs, sales performance, and operational metrics</li>
+      <li>Performed data quality checks and resolved discrepancies to maintain data integrity</li>
+      <li>Developed automated reporting workflows and documented data processes</li>
+      <li>Communicated data findings clearly to non-technical stakeholders</li>
+    </ul>
+  </div>
+  <div class="entry">
+    <h3>Marketing & Operations Coordinator</h3>
+    <p class="org">Fixation — Islamabad, Pakistan</p>
+    <p class="date">Jun 2022 – Jun 2024</p>
+    <ul>
+      <li>Analyzed campaign data across platforms tracking impressions, CTR, reach, and engagement</li>
+      <li>Built dashboards and reports communicating performance insights to stakeholders</li>
+      <li>Identified trends and patterns to inform marketing strategy and optimize ad spend</li>
+    </ul>
+  </div>
+</section>
+<section>
+  <h2>Education</h2>
+  <div class="entry">
+    <h3>Master of Science in Business Analytics</h3>
+    <p class="org">Siena University — Loudonville, NY</p>
+    <p class="date">Expected May 2027 · GPA: 3.5</p>
+    <ul><li>Coursework: Business Intelligence, Financial Analytics, Data Visualization & Predictive Analytics, Decision Modeling, Digital Marketing Analytics, Financial Management</li></ul>
+  </div>
+  <div class="entry">
+    <h3>Bachelor of Science in Social Sciences</h3>
+    <p class="org">Bahria University — Islamabad, Pakistan</p>
+    <p class="date">May 2022</p>
+  </div>
+</section>
+<footer>
+  <p>Amir Ali · Chaudhryamir0@gmail.com · Albany, NY</p>
+  <p style="margin-top:8px;">
+    <a href="https://www.linkedin.com/in/amir-ali-6b677929b/" target="_blank" style="color:rgba(255,255,255,0.8); margin: 0 10px;">LinkedIn</a>
+    <a href="https://github.com/Amiralianalyst" target="_blank" style="color:rgba(255,255,255,0.8); margin: 0 10px;">GitHub</a>
+  </p>
+</footer>
+</body>
+</html>
