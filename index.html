@@ -55,28 +55,47 @@
     <a href="https://github.com/Amiralianalyst" target="_blank">GitHub</a>
   </div>
 </header>
+
 <section>
   <h2>About Me</h2>
-  <p class="about-text">Business Analytics graduate student at Siena University with hands-on experience in data analysis, machine learning, and business reporting. I have built independent end-to-end analytics projects using Python, R, SQL, and Excel — working with real-world datasets in healthcare and financial analytics. Passionate about translating complex data into clear, actionable insights that drive business decisions. Currently seeking data analyst and business analyst internships.</p>
+  <p class="about-text">Business Analytics graduate student at Siena University with hands-on experience in data analysis, machine learning, and business reporting across healthcare, finance, and e-commerce logistics. Skilled at cleaning and validating large real-world datasets, building predictive models, and translating technical findings into recommendations that support real business decisions.</p>
 </section>
+
 <section>
   <h2>Technical Skills</h2>
   <div class="skills-grid">
     <div class="skill-card"><h3>Programming</h3><p>Python (Pandas, Scikit-learn, Matplotlib, Seaborn), R, SQL</p></div>
-    <div class="skill-card"><h3>BI & Visualization</h3><p>Power BI, Tableau, Excel (advanced), R (ggplot2), Dashboard Development</p></div>
+    <div class="skill-card"><h3>BI & Visualization</h3><p>Power BI, Excel (advanced), R (ggplot2), Dashboard Development</p></div>
     <div class="skill-card"><h3>Machine Learning</h3><p>Logistic Regression, Multiple Linear Regression, EDA, Model Evaluation (Precision, Recall, F1)</p></div>
     <div class="skill-card"><h3>Statistical Modeling</h3><p>Time Series Forecasting (ARIMA), Monte Carlo Simulation, Decision Analysis, JMP</p></div>
     <div class="skill-card"><h3>Data Skills</h3><p>Data cleaning, transformation, validation, pipeline development, multi-source integration</p></div>
-    <div class="skill-card"><h3>Tools & Platforms</h3><p>Microsoft Azure (familiar), Power Query, Microsoft 365, Google Analytics, GitHub</p></div>
+    <div class="skill-card"><h3>Tools & Platforms</h3><p>Power Query, Microsoft 365, Google Analytics, GitHub</p></div>
   </div>
 </section>
+
 <section>
   <h2>Projects</h2>
+
+  <div class="project-card">
+    <h3>E-Commerce Fulfillment & Logistics Analytics</h3>
+    <p class="project-meta">Independent Project · SQL + Power BI · Summer 2026</p>
+    <p>Analyzed 180,519 order records from the DataCo Smart Supply Chain dataset to evaluate fulfillment performance, shipping efficiency, and profitability across shipping modes, regions, and customer segments. Wrote 10 SQL queries covering data cleaning, aggregation, window functions, and CTEs, then built a 3-page interactive Power BI dashboard for business stakeholders.</p>
+    <div class="tags"><span class="tag">SQL</span><span class="tag">CTEs</span><span class="tag">Window Functions</span><span class="tag">Power BI</span><span class="tag">DAX</span></div>
+    <div class="findings">
+      <p><strong>180,519</strong> order records analyzed across shipping modes, regions, and customer segments</p>
+      <p>First Class shipping on-time rate: just <strong>4.68%</strong> — dramatically worse than every other shipping mode, consistent across all customer segments</p>
+      <p>Standard Class had the best on-time rate (61.93%) but the highest raw count of late orders (41,023) — a rate-vs-volume tradeoff</p>
+      <p>Discount rate flat (~9.7–11%) across categories while profit margin varied widely (5.3%–11%+) — margin driven by cost structure, not discounting</p>
+      <p>Caught and correctly flagged a late-period order volume drop as likely incomplete data collection, not a real business decline</p>
+    </div>
+    <a class="github-link" href="https://github.com/Amiralianalyst/fulfillment-logistics-analytics" target="_blank">View on GitHub</a>
+  </div>
+
   <div class="project-card">
     <h3>Hospital Readmission Risk Analysis</h3>
     <p class="project-meta">Independent Project · Python · Summer 2026</p>
-    <p>Built a machine learning model to predict 30-day hospital readmission risk using 101,766 real clinical records from 130 US hospitals. Performed large-scale data cleaning across 50 features, handled class imbalance, and delivered business recommendations tied to healthcare policy outcomes.</p>
-    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span><span class="tag">Healthcare Analytics</span><span class="tag">EDA</span></div>
+    <p>Built a machine learning model to predict 30-day hospital readmission risk using 101,766 real clinical records from 130 US hospitals. Performed large-scale data cleaning, class imbalance handling, and model evaluation.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span></div>
     <div class="findings">
       <p><strong>101,766</strong> real patient records from <strong>130 US hospitals</strong></p>
       <p>AUC-ROC score: <strong>0.6446</strong> — consistent with published research for this type of clinical readmission model</p>
@@ -86,11 +105,12 @@
     </div>
     <a class="github-link" href="https://github.com/Amiralianalyst/hospital-readmission-risk-analysis" target="_blank">View on GitHub</a>
   </div>
+
   <div class="project-card">
     <h3>Credit Default Risk Analysis</h3>
     <p class="project-meta">Independent Project · Python · Summer 2026</p>
-    <p>Built a logistic regression model to predict loan default risk across 2,000 bank customers. Performed full EDA, correlation analysis, and model evaluation. Delivered data-driven business recommendations for credit risk assessment strategy.</p>
-    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span><span class="tag">Financial Analytics</span><span class="tag">EDA</span></div>
+    <p>Built a logistic regression model to predict loan default risk across 2,000 bank customers. Performed full EDA, correlation analysis, and model evaluation. Delivered data-backed recommendations for credit risk assessment.</p>
+    <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Scikit-learn</span><span class="tag">Logistic Regression</span></div>
     <div class="findings">
       <p><strong>89% accuracy</strong> on test set</p>
       <p>Age = strongest predictor — defaulters averaged <strong>26 years</strong> vs 43 for non-defaulters</p>
@@ -99,10 +119,11 @@
     </div>
     <a class="github-link" href="https://github.com/Amiralianalyst/credit-default-risk-analysis" target="_blank">View on GitHub</a>
   </div>
+
   <div class="project-card">
     <h3>Housing Price Prediction Model</h3>
     <p class="project-meta">Academic Project · R · Siena University · Spring 2025</p>
-    <p>Analyzed King County Housing dataset (21,000+ records) — performed full EDA, data cleaning, and Multiple Linear Regression modeling with p-value and VIF diagnostics to identify key price drivers.</p>
+    <p>Analyzed King County Housing dataset (21,000+ records) — performed full EDA, data cleaning, and Multiple Linear Regression modeling with p-value and VIF diagnostics to identify key drivers of residential property value.</p>
     <div class="tags"><span class="tag">R</span><span class="tag">Multiple Linear Regression</span><span class="tag">EDA</span><span class="tag">Data Visualization</span></div>
     <div class="findings">
       <p><strong>21,000+</strong> residential property records analyzed</p>
@@ -110,7 +131,9 @@
       <p>VIF diagnostics confirmed no multicollinearity in final model</p>
     </div>
   </div>
+
 </section>
+
 <section>
   <h2>Experience</h2>
   <div class="entry">
@@ -135,20 +158,32 @@
     </ul>
   </div>
 </section>
+
 <section>
   <h2>Education</h2>
   <div class="entry">
     <h3>Master of Science in Business Analytics</h3>
     <p class="org">Siena University — Loudonville, NY</p>
     <p class="date">Expected May 2027 · GPA: 3.5</p>
-    <ul><li>Coursework: Business Intelligence, Financial Analytics, Data Visualization & Predictive Analytics, Decision Modeling, Digital Marketing Analytics, Financial Management</li></ul>
-  </div>
-  <div class="entry">
-    <h3>Bachelor of Science in Social Sciences</h3>
-    <p class="org">Bahria University — Islamabad, Pakistan</p>
-    <p class="date">May 2022</p>
+    <ul>
+      <li>Coursework: Management for Decision Makers, Business Intelligence & Information Systems, Digital Marketing Analytics, Data Visualization & Predictive Analytics, Decision Modeling & Analytics, Financial Analytics, Financial Management</li>
+    </ul>
   </div>
 </section>
+
+<section>
+  <h2>Interests & Focus Areas</h2>
+  <div class="tags">
+    <span class="tag">Healthcare Analytics</span>
+    <span class="tag">Financial Analytics</span>
+    <span class="tag">Supply Chain & Logistics Analytics</span>
+    <span class="tag">Predictive Modeling</span>
+    <span class="tag">Business Intelligence & Dashboards</span>
+    <span class="tag">Data Quality & Governance</span>
+    <span class="tag">Data-Driven Decision Making</span>
+  </div>
+</section>
+
 <footer>
   <p>Amir Ali · Chaudhryamir0@gmail.com · Albany, NY</p>
   <p style="margin-top:8px;">
